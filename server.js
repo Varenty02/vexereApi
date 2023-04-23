@@ -11,7 +11,7 @@ app.use(Fingerprint({
 
 }))
 app.use('/api/v1',rootRouter);
-app.listen(3000,async ()=>{
+app.listen(4000,async ()=>{
     console.log('App listening on https://localhost:3000');
     try {
         await sequelize.authenticate();
