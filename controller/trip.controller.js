@@ -35,6 +35,7 @@ const updateTrip=async (req,res)=>{
     })
     res.status(200).send(`đã update trip có id là ${id}`)
 }
+
 module.exports={
     createTrip,
     getAllTrip,
